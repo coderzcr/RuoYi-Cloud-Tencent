@@ -19,9 +19,8 @@
         <java.version>1.8</java.version>
         <spring-boot.version>2.7.1</spring-boot.version>
         <spring-cloud.version>2021.0.3</spring-cloud.version>
-        <spring-cloud-alibaba.version>2021.0.1.0</spring-cloud-alibaba.version>
-        <alibaba.nacos.version>2.0.4</alibaba.nacos.version>
-        <alibaba.seata.version>1.5.1</alibaba.seata.version>
+        <spring-cloud-tencent.version>1.6.0-2021.0.3</spring-cloud-tencent.version>
+         <alibaba.seata.version>1.5.1</alibaba.seata.version>
         <spring-boot-admin.version>2.7.2</spring-boot-admin.version>
         <spring-boot.mybatis>2.2.2</spring-boot.mybatis>
         <swagger.fox.version>3.0.0</swagger.fox.version>
@@ -55,20 +54,13 @@
                 <scope>import</scope>
             </dependency>
 
-            <!-- SpringCloud Alibaba 微服务 -->
+            <!-- SpringCloud Tencent 微服务-->
             <dependency>
-                <groupId>com.alibaba.cloud</groupId>
-                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
-                <version>${spring-cloud-alibaba.version}</version>
+                <groupId>com.tencent.cloud</groupId>
+                <artifactId>spring-cloud-tencent-dependencies</artifactId>
+                <version>${spring-cloud-tencent.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
-            </dependency>
-
-            <!-- Alibaba Nacos 配置 -->
-            <dependency>
-                <groupId>com.alibaba.nacos</groupId>
-                <artifactId>nacos-client</artifactId>
-                <version>${alibaba.nacos.version}</version>
             </dependency>
 
             <!-- Alibaba Seata 配置 -->

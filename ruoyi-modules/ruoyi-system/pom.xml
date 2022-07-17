@@ -16,23 +16,18 @@
     </description>
 	
     <dependencies>
-    	
-    	<!-- SpringCloud Alibaba Nacos -->
+
+        <!-- SpringCloud Tencent 注册中心 -->
         <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+            <groupId>com.tencent.cloud</groupId>
+            <artifactId>spring-cloud-starter-tencent-polaris-discovery</artifactId>
         </dependency>
-        
-        <!-- SpringCloud Alibaba Nacos Config -->
+
+
+        <!-- SpringCloud Tencent 配置中心 -->
         <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
-        </dependency>
-        
-    	<!-- SpringCloud Alibaba Sentinel -->
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+            <groupId>com.tencent.cloud</groupId>
+            <artifactId>spring-cloud-starter-tencent-polaris-config</artifactId>
         </dependency>
         
     	<!-- SpringBoot Actuator -->
